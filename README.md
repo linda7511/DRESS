@@ -88,7 +88,3 @@ If you find this project helpful, please cite our paper:
 ## Acknowledgements
 
 This codebase is built upon the [RGTAN implementation](https://github.com/AI4Risk/antifraud/tree/main/methods/rgtan) in the [AntiFraud](https://github.com/AI4Risk/antifraud) framework. We thank the authors for releasing their code and datasets.
-
-## License
-
-The project license is to be finalized by the authors before public release.
