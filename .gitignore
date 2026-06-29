@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+.venv/
+venv/
+.env
+
+data/
+outputs/
+plots/
+figure/
+
+*.zip
+IJCAI_DRESS_Camera_ready_2.pdf
+.DS_Store
+Thumbs.db

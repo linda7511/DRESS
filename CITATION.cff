@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Deep Reinforcement Learning Enhanced Semi-supervised Graph Neural Network for Credit Card Fraud Detection"
+message: "If you use this code, please cite the IJCAI paper."
+type: software
+authors:
+  - family-names: He
+    given-names: Huilin
+  - family-names: Zhu
+    given-names: Kun
+  - family-names: Hu
+    given-names: Zewen
+  - family-names: Wang
+    given-names: Jie
+  - family-names: Cheng
+    given-names: Dawei
+repository-code: "https://github.com/linda7511/DRESS"
+license: "LicenseRef-TBD"

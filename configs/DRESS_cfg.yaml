@@ -1,0 +1,22 @@
+batch_size: 256 # 64 for Amazon, 128 for YelpChi, 256 for S-FFSD
+hid_dim: 256
+lr: 0.003 # 0.001 for YelpChi, 0.003 for Amazon and S-FFSD
+wd: 0.0001
+n_layers: 2 # 1 for Amazon, 2 for YelpChi and S-FFSD
+dropout: [0.2, 0.1]
+device: "cuda:0"
+early_stopping: 5
+n_fold: 1
+seed: 2025
+max_epochs: 100
+gated: True
+dataset: S-FFSD
+data_dir: data
+checkpoint_path: checkpoints/DRESS_ckpt.pth
+test_size: 0.8
+nei_att_heads:
+  yelp: 4
+  amazon: 5
+  S-FFSD: 9
+intrinsic_reward: True
+ml_risk_score: False # Only works when intrinsic_reward is False
